@@ -33,7 +33,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
+    //criando namespace para correção do Route
     protected $namespace = 'App\Http\Controllers';
+
+    
     public function boot()
     {
         $this->configureRateLimiting();

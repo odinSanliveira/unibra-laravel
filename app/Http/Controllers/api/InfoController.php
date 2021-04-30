@@ -24,37 +24,8 @@ class InfoController extends Controller
     }
 
     
-    public function create()
-    {
-        //
-    }
-
-    
     public function store(Request $request)
     {   //possibilita a introdução de valores nas tabelas da database;
         Info::create($request->all());
-    }
-
-    public function show($id)
-    {
-        //
-    }
-
-   
-    public function edit($id)
-    {
-        //
-    }
-
-    
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    
-    public function destroy($id)
-    {
-        //
     }
 }

@@ -13,7 +13,7 @@ class CreateInfosTable extends Migration
      */
     public function up()
     {
-        //definiçã das tabelas do mysql
+        //definição da tabela  Info no mysql
         Schema::create('infos', function (Blueprint $table) {
             $table->id();
             $table->string('cnpj')->default('');
